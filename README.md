@@ -1,28 +1,18 @@
 # Assignment: Create an Application for Calculating Permutations and Combinations
-### Author : Troy Washington | Date :  October 2024
-## Instructions
-I'm running the entire application on VScode. I've installed the Python extension and was able to get the Flask application started by entering the following lines of code into my vscode terminal: 
+Author : Troy Washington | Date :  October 2024
 
-### Dependencies: 
+Environments: Python, ReactJS
+## UI components
+- Page Header
+- Instructions
+- Calculator
+## UI Design 
+Simple web page with title header and page site instructions for operating the calculator. 
 
-Pip installation
+n = number of items
 
-```
-/usr/local/bin/python3.11 -m ensurepip --upgrade
-```
-Flask installation
-```
-/usr/local/bin/python3.11 -m pip install flask
-```
-Flask-CORS installation
-```
-/usr/local/bin/python3.11 -m pip install Flask-CORS
-```
+r = number of items in rotation
 
-After this you can install and run the react front end to view and test the application. 
-```
-npm install
-```
-```
-npm run start
-```
+After clicking the calculate button results will be submitted for number of possible permutations that could be taken and number of total possible combinations. 
+<img width="971" alt="Screenshot 2024-11-15 at 4 26 11 PM" src="https://github.com/user-attachments/assets/eff334d1-db7e-483b-8862-6117366e66fb">
+
